@@ -1,4 +1,4 @@
-package createcontact;
+package practiceprogram;
 
 import java.util.Scanner;
 

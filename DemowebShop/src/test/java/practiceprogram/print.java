@@ -1,4 +1,4 @@
-package createcontact;
+package practiceprogram;
 
 public class print {
 	
