@@ -1,5 +1,7 @@
 package Practice.Test;
 
+import org.testng.Reporter;
+import org.testng.annotations.Test;
 import org.testng.annotations.Test;
 import org.testng.annotations.Test;
 
@@ -8,26 +10,26 @@ public class CreateOrgTest {
 	@Test
 	public void createOrg()
 	{
-		System.out.println("Organization is Created");
+		Reporter.log("Organization is Created",true);
 	}
 	
 
 	@Test
 	public void modifyOrg()
 	{
-		System.out.println("Organization is modified");
+		Reporter.log("Organization is modified",true);
 	}
 	
 	@Test
 	public void reviewOrg()
 	{
-		System.out.println("Organization is reviewed");
+		Reporter.log("Organization is reviewed",true);
 	}
 	
 	@Test
 	public void approveOrg()
 	{
-		System.out.println("Organization is approved");
+		Reporter.log("Organization is approved",true);
 	}
 
 }

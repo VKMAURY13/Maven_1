@@ -1,5 +1,6 @@
 package Practice.ContactTest;
 
+import org.testng.Reporter;
 import org.testng.annotations.Test;
 
 public class ContactTest {
@@ -8,26 +9,26 @@ public class ContactTest {
 	@Test
 	public void createContact()
 	{
-		System.out.println("Contact is Created");
+		Reporter.log("Contact is Created",true);
 	}
 	
 
 	@Test
 	public void modifyContact()
 	{
-		System.out.println("Contact is modified");
+		Reporter.log("Contact is modified",true);
 	}
 	
 	@Test
 	public void reviewContact()
 	{
-		System.out.println("Contact is reviewed");
+		Reporter.log("Contact is reviewed",true);
 	}
 	
 	@Test
 	public void approveContact()
 	{
-		System.out.println("Contact is approved");
+		Reporter.log("Contact is approved",true);
 	}
 
 

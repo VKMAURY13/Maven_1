@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Contact is Created]]>
+    </line>
+    <line>
+      <![CDATA[Organization is Created]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2025-02-27T12:12:48 IST" name="Suite" finished-at="2025-02-27T12:12:48 IST" duration-ms="97">
+    <groups>
+    </groups>
+    <test started-at="2025-02-27T12:12:48 IST" name="Test" finished-at="2025-02-27T12:12:48 IST" duration-ms="97">
+      <class name="Practice.ContactTest.ContactTest">
+        <test-method signature="createContact()[pri:0, instance:Practice.ContactTest.ContactTest@2794eab6]" started-at="2025-02-27T12:12:48 IST" name="createContact" finished-at="2025-02-27T12:12:48 IST" duration-ms="15" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Contact is Created]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- createContact -->
+      </class> <!-- Practice.ContactTest.ContactTest -->
+      <class name="Practice.Test.CreateOrgTest">
+        <test-method signature="createOrg()[pri:0, instance:Practice.Test.CreateOrgTest@3e27aa33]" started-at="2025-02-27T12:12:48 IST" name="createOrg" finished-at="2025-02-27T12:12:48 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Organization is Created]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- createOrg -->
+      </class> <!-- Practice.Test.CreateOrgTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
