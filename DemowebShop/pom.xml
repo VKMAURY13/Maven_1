@@ -67,7 +67,7 @@
             <version>3.5.2</version>
             <configuration>
                 <suiteXmlFiles>
-                    <suiteXmlFiles>FULLREGRESSIONTEST.xml</suiteXmlFiles>
+                    <suiteXmlFile>FULLREGRESSIONTEST.xml</suiteXmlFile>
                 </suiteXmlFiles>
             </configuration>
         </plugin>
@@ -87,7 +87,7 @@
             <version>3.5.2</version>
             <configuration>
                 <suiteXmlFiles>
-                    <suiteXmlFiles>REGRESSION_TESTING.xml</suiteXmlFiles>
+                    <suiteXmlFile>REGRESSION_TESTING.xml</suiteXmlFile>
                 </suiteXmlFiles>
             </configuration>
         </plugin>
@@ -107,7 +107,7 @@
             <version>3.5.2</version>
             <configuration>
                 <suiteXmlFiles>
-                    <suiteXmlFiles>SMOKE_TESTING.xml</suiteXmlFiles>
+                    <suiteXmlFile>SMOKE_TESTING.xml</suiteXmlFile>
                 </suiteXmlFiles>
             </configuration>
         </plugin>
